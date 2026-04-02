@@ -71,8 +71,16 @@ gallery.addEventListener('click', (event) => {
   const target = event.target;
   if (!target.classList.contains('gallery-image')) return;
   const largeImageUrl = target.dataset.source;
-  const instance = basicLightbox.create(`
-    <img src="${largeImageUrl}" alt="${target.alt}" />
-  `);
+  const instance = basicLightbox.create(
+    `<img src="${largeImageUrl}" alt="${target.alt}" />`,
+    {
+      onShow: () => {
+        document.body.style.overflow = 'hidden';
+      },
+      onClose: () => {
+        document.body.style.overflow = '';
+      },
+    }
+  );
   instance.show();
 });
