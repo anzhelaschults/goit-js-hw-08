@@ -28,6 +28,16 @@ body {
 .gallery-image:hover {
   transform: scale(1.03);
 }
+.basicLightbox {
+  overflow: hidden;
+}
+
+.basicLightbox__placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .basicLightbox__placeholder img {
   max-width: 90vw;
   max-height: 90vh;
