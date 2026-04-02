@@ -2,6 +2,7 @@ body {
   font-family: sans-serif;
   background-color: #f5f5f5;
   padding: 24px;
+  overflow-x: hidden;
 }
 .gallery {
   display: flex;
@@ -31,13 +32,12 @@ body {
 .basicLightbox {
   overflow: hidden;
 }
-
 .basicLightbox__placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
-
 .basicLightbox__placeholder img {
   max-width: 90vw;
   max-height: 90vh;
