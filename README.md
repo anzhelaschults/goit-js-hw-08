@@ -1,6 +1,6 @@
 # goit-js-hw-08
 
-Homework assignment for GoIT JavaScript course. Final project: Image Gallery.
+Homework assignment for Neoversity University. Final project: Image Gallery.
 Домашнє завдання курсу JavaScript від GoIT. Фінальний проєкт: Галерея зображень.
 
 ## Task / Завдання
